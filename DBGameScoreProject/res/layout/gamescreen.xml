@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/pass"></TextView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:gravity="center">
+        <Button android:text="" android:id="@+id/redButton" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp"></Button>
+        <Button android:text="" android:id="@+id/yellowButton" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:gravity="center">
+        <Button android:text="" android:id="@+id/greenButton" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp"></Button>
+        <Button android:text="" android:id="@+id/blueButton" android:layout_width="60dp" android:layout_height="60dp" android:layout_margin="10dp"></Button>
+    </LinearLayout>
+    <LinearLayout android:gravity="center"  android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout3" android:orientation="vertical">
+        <Button android:text="NextLevel" android:id="@+id/nextLevel" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <RelativeLayout   android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout4" android:orientation="vertical">
+        <TextView android:layout_alignParentBottom="true" android:id="@+id/scorePrint" android:text="Score" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" ></TextView>
+    </RelativeLayout>
+
+    
+</LinearLayout>

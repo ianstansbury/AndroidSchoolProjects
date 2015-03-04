@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, startScreen!</string>
+    <string name="app_name">Simon by Ian Stansbury</string>
+    <string name="highScoresButton">High Scores</string>
+    <string name="startButton">Start</string>
+    <string name="difficultyButton">Difficulty</string>
+    <string name="easydiff">Easy</string>
+    <string name="meddiff">Medium</string>
+    <string name="harddiff">Hard</string>
+
+</resources>

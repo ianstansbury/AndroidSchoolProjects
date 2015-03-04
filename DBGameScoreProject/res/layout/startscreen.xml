@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center">
+    <Button android:text="@string/startButton" android:id="@+id/startButton" android:layout_width="175dp" android:layout_height="wrap_content"></Button>
+    <Button android:text="@string/difficultyButton" android:id="@+id/difficultyButton" android:layout_width="175dp" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="25dp"></Button>
+    <Button android:text="@string/highScoresButton" android:id="@+id/highScoresButton" android:layout_width="175dp" android:layout_height="wrap_content"></Button>
+    
+</LinearLayout>
